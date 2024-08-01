@@ -10,6 +10,7 @@ const SearchFilter = ({ searchQuery, setSearchQuery }) => {
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
+      <h1>Task List</h1>
     </div>
   );
 };
